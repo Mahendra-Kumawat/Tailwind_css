@@ -4,11 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>tailwind css</title>
+  <title>Tailwind Css Project</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
   <link rel="stylesheet" href="./output.css" />
   <script src="./script.js" defer></script>
 </head>
@@ -87,7 +90,7 @@
 
   <!-- Main start -->
   <main>
-    <div class="min-h-screen bg-gradient-to-br pt-24 from-purple-50 via-orange-50 to-transparent">
+    <div class=" pt-24 pb-10 mb-10">
       <div id="hero-container"
         class="mb-20 max-w-4xl mx-auto flex flex-col sm:items-center sm:text-center gap-8 pt-10 px-10 sm:px-0 py-7">
         <div id="version-container"
@@ -133,14 +136,14 @@
         </div>
       </div>
 
-      <section id="company-feature" class="">
+      <section id="company-feature" class="relative -z-10">
         <div class="flex gap-4 justify-center items-center">
           <img src="./assets/asset 2.svg" class="translate-y-3" alt="" />
           <span class="font-medium"> APPS POWERED BY TODESKTOP </span>
           <img src="./assets/asset 2.svg" class="translate-y-3 -scale-x-100" alt="" />
         </div>
-        <div id="line-groups" class="mt-10 flex flex-col gap-5 relative">
-          <div id="line1" class="flex gap-4 w-screen transition-transform ease-linear">
+        <div id="line-groups" class="mt-10 flex flex-col gap-5">
+          <div id="line1" class="flex gap-4 w-screen transition-transform -translate-x-48 ease-linear">
             <div id="card"
               class="flex flex-col justify-center gap-2 items-center min-w-24 min-h-24 bg-white rounded-xl border border-gray-300 md:min-h-32 md:min-w-32">
               <img src="./assets/asset 13.png" alt="" class="h-12 w-12 sm:h-16 sm:w-16" />
@@ -1003,7 +1006,7 @@
         Faqs
       </h2>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-start mt-10" id="faqs-container">
-        <div class="group flex flex-col gap-5 rounded-xl border border-gray-200 bg-gray-50 p-3">
+        <div class="group flex flex-col gap-5 rounded-xl border  border-gray-200 bg-gray-50 p-3">
           <div class="flex items-center justify-between p-3 faqs-item cursor-pointer">
             <h3 class="font-semibold capitalize">
               Is ToDesktop For Me?

@@ -9,8 +9,8 @@ const closeMenuButton = document.querySelector("#close-menu-button");
 
 const  faqsItem = document.querySelectorAll(".faqs-item");
 
-let inititaltranslateLeftToRight = 44
-let inititaltranslateRightToLeft = -32
+let inititaltranslateLeftToRight = 48*4
+let inititaltranslateRightToLeft = -32*4
 
 menuBar.addEventListener("click", () => {
   navDilog.classList.toggle("hidden");
@@ -54,9 +54,9 @@ const line3 = document.querySelector("#line3");
 const line4 = document.querySelector("#line4")
 
 
-setupintersectinObserver(line1, true, 0.1);
-setupintersectinObserver(line2, true, 0.1);
-setupintersectinObserver(line3, false, 0.1);
+setupintersectinObserver(line1, false, 0.1);
+setupintersectinObserver(line2, false, 0.4);
+setupintersectinObserver(line3, false, 0.8);
 setupintersectinObserver(line4, false, 0.7);
 
 
